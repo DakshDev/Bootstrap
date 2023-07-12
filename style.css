@@ -1,0 +1,11 @@
+#container{
+	padding: 0px;
+}
+.carousel-item{
+	max-height: 600px;
+	min-height: auto;
+	width: 100%;
+}
+#fixed-button{
+	right: 0px;
+}

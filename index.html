@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+	<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<title>BootStrap | Webpage</title>
+</head>
+<body>
+
+<div id="container" class="container-xxl">
+
+
+<nav class="navbar navbar-expand-lg bg-light">
+
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" class="img-fluid" width="60px">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blogs
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">One</a></li>
+            <li><a class="dropdown-item" href="#">Two</a></li>
+            <li><a class="dropdown-item" href="#">Three</a></li>
+            <li><hr class="dropdown-divider bg-secondary"></li>
+            <li><a class="dropdown-item" href="#">More</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Clients</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+
+
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 border-secondary" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- SLIDER -->
+<div id="carouselExampleCaptions" class="carousel slide">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+  </div>
+
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="img/bg-img-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Content One</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/bg-img-2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Content Two</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/bg-img-3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Content Three</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container-fluid">
+  
+    <div class="row">
+  
+      <div class="col-md-4 col-12 d-grid justify-content-center mt-5 align-middle">
+        <div class="card bg-light" style="max-width: 15rem; min-width: auto;">
+          <img src="img/elon.jfif" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">@ Name/Link</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div id="progress-col" class="col-md-8 col-12 mt-5 text-center d-grid align-items-center align-content-center">
+          <div class="progress mb-5 bg-light" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 50%">Content here</div>
+          </div>
+  
+          <div class="progress mb-5 bg-light" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 25%">Content here</div>
+          </div>
+  
+          <div class="progress mb-5 bg-light" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 70%">Content here</div>
+          </div>
+  
+          <div class="progress mb-5 bg-light" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 75%">Content here</div>
+          </div>
+  
+          <div class="progress mb-5 bg-light" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success " style="width: 100%">Content here</div>
+          </div>
+  
+      </div>
+      
+    </div>
+  
+  </div>
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+  <div id="Footer" class="container-fluid">
+      <div class="row bg-dark mt-5 position-relative">
+
+        <div class="col-12 d-grid align-items-center justify-content-center align-content-center gap-5">
+
+          <div class=" mt-5 d-grid justify-content-center text-white">
+            <!-- Your Logo -->
+            <h1>@ Your Logo</h1>
+          </div>
+
+          <div id="f-content" class="text-white text-center">
+            <!-- Your Content -->
+              <p>@Design By Daksh</p>
+              <a href="#">Author Website</a>
+          </div>
+
+
+
+
+
+
+
+
+        <span id="fixed-button" class="btn text-white position-absolute top-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/></svg>
+
+        </span>
+
+        <div class="offcanvas offcanvas-top bg-dark" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+        <h3 class="offcanvas-title text-white" id="offcanvasTopLabel">Social Links</h3>
+        <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+          <div class="offcanvas-body d-grid justify-content-start">
+             <a href="#">@Facebook</a>
+             <a href="#">@Twitter</a>
+             <a href="#">@Instagram</a>
+             <a href="#">@LinkedIn</a>
+             <a href="#">@Reddit</a>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+  </div>
+
+
+
+  
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
